@@ -24,4 +24,5 @@ async function getWeather() {
     document.getElementById("wind").innerText = "🌬 Wind: " + data.wind.speed + " km/h";
         }
 
-              
+
+        
