@@ -1,4 +1,4 @@
-const apiKey = "YOUR_API_KEY_HERE";
+const apiKey = "6cb1c0393bbe566f239d6bf4f0235238";
 
 async function getWeather() {
     const city = document.getElementById("city").value;
@@ -22,4 +22,5 @@ async function getWeather() {
     document.getElementById("temp").innerText = "🌡 Temperature: " + data.main.temp + "°C";
     document.getElementById("humidity").innerText = "💧 Humidity: " + data.main.humidity + "%";
     document.getElementById("wind").innerText = "🌬 Wind: " + data.wind.speed + " km/h";
-      }
+        }
+        
