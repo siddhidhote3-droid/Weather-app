@@ -23,4 +23,5 @@ async function getWeather() {
     document.getElementById("humidity").innerText = "💧 Humidity: " + data.main.humidity + "%";
     document.getElementById("wind").innerText = "🌬 Wind: " + data.wind.speed + " km/h";
         }
-        
+
+              
